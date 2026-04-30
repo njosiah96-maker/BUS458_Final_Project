@@ -6,10 +6,10 @@ import pandas as pd
 import sklearn # Needed to load sklearn objects from pickle
 
 # Load the trained model and scaler
-with open("/content/deployment_model (1).pkl", "rb") as file:
+with open("deployment_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("/content/scaler.pkl", "rb") as file:
+with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # getting feature names
