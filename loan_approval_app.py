@@ -3,6 +3,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import numpy as np
 import sklearn # Needed to load sklearn objects from pickle
 
 # Load the trained model and scaler
